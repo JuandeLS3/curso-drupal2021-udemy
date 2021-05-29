@@ -1,0 +1,25 @@
+uuid: 8a3595c9-d491-44c3-bcfc-b29ad9b8b682
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.sample-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: samplemenu
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:sample-menu'
+settings:
+  id: 'system_menu_block:sample-menu'
+  label: 'Sample menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

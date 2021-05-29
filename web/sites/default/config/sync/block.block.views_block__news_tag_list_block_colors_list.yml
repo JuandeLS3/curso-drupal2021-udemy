@@ -1,0 +1,32 @@
+uuid: 27a8f1c8-20d3-4a2a-b0db-a821ec5ad590
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_tag_list
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__news_tag_list_block_colors_list
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:news_tag_list-block_colors_list'
+settings:
+  id: 'views_block:news_tag_list-block_colors_list'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      news: news
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

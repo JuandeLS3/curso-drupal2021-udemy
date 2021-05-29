@@ -1,0 +1,22 @@
+uuid: 77d9249d-a1d6-46d5-9676-27cb22af57ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.colors
+id: taxonomy_term.colors.status
+field_name: status
+entity_type: taxonomy_term
+bundle: colors
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

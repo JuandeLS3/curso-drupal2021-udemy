@@ -1,0 +1,8 @@
+uuid: 31f48176-6cb8-4c51-86eb-a7915c77b6e8
+langcode: en
+status: true
+dependencies: {  }
+id: test_block
+label: 'Test block'
+revision: 0
+description: ''

@@ -1,0 +1,8 @@
+uuid: 323d07ac-0732-41b8-82df-aa0bf4759432
+langcode: en
+status: true
+dependencies: {  }
+id: sample-menu
+label: 'Sample menu'
+description: ''
+locked: false
