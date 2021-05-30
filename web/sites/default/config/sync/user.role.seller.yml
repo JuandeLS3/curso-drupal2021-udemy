@@ -1,0 +1,10 @@
+uuid: 04fedae7-d975-4974-b909-79d85c382ae2
+langcode: en
+status: true
+dependencies: {  }
+id: seller
+label: Seller
+weight: 3
+is_admin: null
+permissions:
+  - 'display eu cookie compliance popup'

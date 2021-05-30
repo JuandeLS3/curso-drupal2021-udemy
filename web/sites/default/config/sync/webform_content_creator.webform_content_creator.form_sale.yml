@@ -1,0 +1,73 @@
+uuid: 3a5e51fb-6004-4a22-ab98-6ff636902cf3
+langcode: en
+status: true
+dependencies: {  }
+id: form_sale
+title: 'Form sale'
+webform: vehicle_sale_form
+field_title: null
+use_encrypt: null
+encryption_profile: null
+sync_content: true
+sync_content_delete: true
+sync_content_node_field: null
+sync_content_field: field_webform_id
+elements:
+  body:
+    type: false
+    webform_field: description
+    custom_check: false
+    custom_value: ''
+  field_contact_phone:
+    type: false
+    webform_field: contact_phone
+    custom_check: false
+    custom_value: ''
+  field_images:
+    type: false
+    webform_field: images
+    custom_check: false
+    custom_value: ''
+  field_kilometres:
+    type: false
+    webform_field: kilometres
+    custom_check: false
+    custom_value: ''
+  field_price:
+    type: false
+    webform_field: price
+    custom_check: false
+    custom_value: ''
+  field_registration_date:
+    type: false
+    webform_field: registration_date
+    custom_check: false
+    custom_value: ''
+  field_ubication:
+    type: false
+    webform_field: ubication
+    custom_check: false
+    custom_value: ''
+  field_vehicle:
+    type: false
+    webform_field: vehicle
+    custom_check: false
+    custom_value: ''
+  field_vehicle_state:
+    type: false
+    webform_field: vehicle_state
+    custom_check: false
+    custom_value: ''
+  field_webform_id:
+    type: true
+    webform_field: sid
+    custom_check: false
+    custom_value: ''
+  title:
+    type: false
+    webform_field: title
+    custom_check: false
+    custom_value: ''
+content_type: null
+target_entity_type: node
+target_bundle: ads

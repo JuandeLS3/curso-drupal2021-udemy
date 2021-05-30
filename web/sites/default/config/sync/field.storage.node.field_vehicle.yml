@@ -1,0 +1,20 @@
+uuid: 154bc79f-8569-4c17-a6f4-10302b3c3edc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_vehicle
+field_name: field_vehicle
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

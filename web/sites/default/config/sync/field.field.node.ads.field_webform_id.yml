@@ -1,0 +1,19 @@
+uuid: 68e49587-fc7d-4c0f-9456-515ff87e956e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_webform_id
+    - node.type.ads
+id: node.ads.field_webform_id
+field_name: field_webform_id
+entity_type: node
+bundle: ads
+label: 'Webform ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

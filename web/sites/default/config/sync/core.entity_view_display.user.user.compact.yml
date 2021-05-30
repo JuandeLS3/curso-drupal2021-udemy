@@ -4,6 +4,12 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
+    - field.field.user.user.field_birth
+    - field.field.user.user.field_country
+    - field.field.user.user.field_i_accept_the_terms_and_con
+    - field.field.user.user.field_name
+    - field.field.user.user.field_phone
+    - field.field.user.user.field_surname
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -26,5 +32,10 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
-  langcode: true
+  field_birth: true
+  field_country: true
+  field_i_accept_the_terms_and_con: true
+  field_name: true
+  field_phone: true
+  field_surname: true
   member_for: true

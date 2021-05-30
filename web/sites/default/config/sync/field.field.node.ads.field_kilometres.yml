@@ -1,0 +1,29 @@
+uuid: 18b521c6-521b-4364-bc1d-1521ed1e0417
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kilometres
+    - node.type.ads
+    - taxonomy.vocabulary.kilometres
+id: node.ads.field_kilometres
+field_name: field_kilometres
+entity_type: node
+bundle: ads
+label: Kilometres
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      kilometres: kilometres
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

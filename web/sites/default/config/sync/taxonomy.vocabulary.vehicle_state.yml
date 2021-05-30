@@ -1,0 +1,8 @@
+uuid: 9989eb77-fde4-4e5a-a96e-ec2e194c9837
+langcode: en
+status: true
+dependencies: {  }
+name: 'Vehicle state'
+vid: vehicle_state
+description: ''
+weight: 0

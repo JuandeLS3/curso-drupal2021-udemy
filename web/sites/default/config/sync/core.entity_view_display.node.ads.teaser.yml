@@ -1,0 +1,68 @@
+uuid: 3892b4ba-8a47-4a8a-a572-67bb727767c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ads.body
+    - field.field.node.ads.field_contact_phone
+    - field.field.node.ads.field_images
+    - field.field.node.ads.field_kilometres
+    - field.field.node.ads.field_metatags
+    - field.field.node.ads.field_price
+    - field.field.node.ads.field_registration_date
+    - field.field.node.ads.field_ubication
+    - field.field.node.ads.field_vehicle
+    - field.field.node.ads.field_vehicle_state
+    - field.field.node.ads.field_webform_id
+    - node.type.ads
+  module:
+    - shs
+    - text
+    - user
+id: node.ads.teaser
+targetEntityType: node
+bundle: ads
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 100
+    third_party_settings: {  }
+    region: content
+  field_price:
+    type: number_decimal
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_vehicle:
+    type: entity_reference_shs
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      link: 0
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_contact_phone: true
+  field_images: true
+  field_kilometres: true
+  field_metatags: true
+  field_registration_date: true
+  field_ubication: true
+  field_vehicle_state: true
+  field_webform_id: true

@@ -1,0 +1,21 @@
+uuid: efc6fb73-dbb9-48cd-8a80-1df2a8561a00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_registration_date
+    - node.type.ads
+  module:
+    - datetime
+id: node.ads.field_registration_date
+field_name: field_registration_date
+entity_type: node
+bundle: ads
+label: 'Registration date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

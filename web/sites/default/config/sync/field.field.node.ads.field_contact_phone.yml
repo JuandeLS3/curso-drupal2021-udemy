@@ -1,0 +1,23 @@
+uuid: 51532e2e-024e-4621-9bc9-6e55ad5de453
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_phone
+    - node.type.ads
+id: node.ads.field_contact_phone
+field_name: field_contact_phone
+entity_type: node
+bundle: ads
+label: 'Contact phone'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

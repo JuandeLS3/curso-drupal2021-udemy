@@ -1,0 +1,29 @@
+uuid: 18f1ef28-d5de-4b06-b65c-0d70a753477c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vehicle_state
+    - node.type.ads
+    - taxonomy.vocabulary.vehicle_state
+id: node.ads.field_vehicle_state
+field_name: field_vehicle_state
+entity_type: node
+bundle: ads
+label: 'Vehicle state'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vehicle_state: vehicle_state
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

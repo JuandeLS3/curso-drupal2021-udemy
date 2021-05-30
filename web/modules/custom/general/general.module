@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * This module provides general functionalities.
+ */
+
+/**
+ * Implements hook_ENTITY_TYPE_presave().
+ */
+function general_user_presave(\Drupal\user\UserInterface $user)
+{
+  if ($user->isNew()) {
+    $user->addRole('seller');
+  }
+}
